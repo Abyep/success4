@@ -1,0 +1,38 @@
+.sidebar{
+    max-width : 350px;
+    width: 100%;
+    position: sticky;
+    left:0;
+    top:0;
+    height:100vh;
+    max-height: 100vh;
+    background :#39CCCC ;
+
+}
+
+.sidebar-detail{
+color :#fff;
+font-size: 1.3rem;
+font-weight: 550;
+margin-top: 20px;
+padding-left: 9%;
+border-bottom: 0.5px solid white;
+padding-bottom: 9%;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        width:30vw;
+    
+    }
+
+
+
+.sidebar-detail{
+    font-size: 0.9rem;
+    }
+    /* .no-mobile {
+      display: none;
+    } */
+  }
+  
